@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coming soon page</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box0">
+            <img class="logo" src="assets/logo.png" alt="">
+            <h1>We're<br>coming<br>soon</h1>
+            <p>Hello fellow shoppers! We're currently building our new<br>fashion store.Add your email below to stay up-to-date with<br>announcements and our launch deals</p>
+            <input type="email" name="" id="email" placeholder="Email Address">
+            <span id="emailFeedback" style="color: red;"></span>
+            <button onclick="validateEmailInput()">Submit</button>
+        </div>
+        <div class="box">
+            <picture>
+                <source srcset="assets/hero-mobile.jpg" media="(max-width:375px)">
+                <source srcset="assets/hero-desktop.jpg" media="(max-width:1440px)">
+                <source srcset="assets/hero-mobile.jpg">
+                <img src="assets/hero-desktop.jpg" alt="" width="100%">
+            </picture>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
